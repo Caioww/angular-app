@@ -1,3 +1,4 @@
+import { CursosModule } from './cursos/cursos.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -12,7 +13,8 @@ import { MeuPrimeiroComponente2Component } from './meu-primeiro-componente2/meu-
     MeuPrimeiroComponente2Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
