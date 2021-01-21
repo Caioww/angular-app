@@ -8,6 +8,9 @@ import { MeuPrimeiroComponente } from './meu-primeiro-componente/meu-primeiro-co
 import { MeuPrimeiroComponente2Component } from './meu-primeiro-componente2/meu-primeiro-componente2.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 
 
 @NgModule({
@@ -16,6 +19,9 @@ import { FormsModule } from '@angular/forms';
     MeuPrimeiroComponente,
     MeuPrimeiroComponente2Component,
     DataBindingComponent,
+    InputPropertyComponent,
+    OutputPropertyComponent,
+    CicloComponent,
 
   ],
   imports: [

@@ -68,7 +68,21 @@
         </article>
     </section-->
 
-    <app-meu-form></app-meu-form>
+    <!---app-meu-form></app-meu-form--->
+
+    <section>
+        <article>
+            <h3>
+                Input/Output Properties
+
+                <app-curso [nome]="nomeDoCurso"></app-curso>
+
+                <contador [valor]='valorInicial' (mudouValor)="onMudouValor($event)"></contador>
+            </h3>
+        </article>
+    </section>
+
+
 
 
 </section>
