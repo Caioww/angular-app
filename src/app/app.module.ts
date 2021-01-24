@@ -11,6 +11,13 @@ import { FormsModule } from '@angular/forms';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { DiretivaNgifComponent } from './diretivas/diretiva-ngif/diretiva-ngif.component';
+import { DiretivasNgswitchComponent } from './diretivas/diretivas-ngswitch/diretivas-ngswitch.component';
+import { DiretivaNgforComponent } from './diretivas/diretiva-ngfor/diretiva-ngfor.component';
+import { DiretivaNgclassComponent } from './diretivas/diretiva-ngclass/diretiva-ngclass.component';
+import { DiretivasNgstyleComponent } from './diretivas/diretivas-ngstyle/diretivas-ngstyle.component';
+import { OperadorElvisComponent } from './diretivas/operador-elvis/operador-elvis.component';
+import { DiretivaNgcontentComponent } from './diretivas/diretiva-ngcontent/diretiva-ngcontent.component';
 
 
 @NgModule({
@@ -22,6 +29,13 @@ import { CicloComponent } from './ciclo/ciclo.component';
     InputPropertyComponent,
     OutputPropertyComponent,
     CicloComponent,
+    DiretivaNgifComponent,
+    DiretivasNgswitchComponent,
+    DiretivaNgforComponent,
+    DiretivaNgclassComponent,
+    DiretivasNgstyleComponent,
+    OperadorElvisComponent,
+    DiretivaNgcontentComponent,
 
   ],
   imports: [
